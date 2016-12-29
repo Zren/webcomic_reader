@@ -1728,7 +1728,9 @@ var paginas = [
 		img:	'issues/'
 	},
 	{	url:	'sandraandwoo.com',
-		img:	['//div[@id="comic"]/img']
+		img:	['//div[@id="comic"]/a/img'],
+		back:   ['//div[@class="nav-previous"]/a'],
+		next:	['//div[@class="nav-next"]/a'],
 	},
 	{	url:	'freakangels.com',
 		img:	'http://www.freakangels.com/comics/',
